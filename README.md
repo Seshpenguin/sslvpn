@@ -43,7 +43,7 @@ docker build . -t seshpenguin/sslvpn
 
 * Deploy the container:
 ```shell script
-docker run -d --name sslvpn --restart always --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro seshpenguin/sslvpn
+docker run -d --name sslvpn --restart always --privileged -p 80:80 -p 443:443 -v /sys/fs/cgroup:/sys/fs/cgroup:ro seshpenguin/sslvpn
 ```
 
 
