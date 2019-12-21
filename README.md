@@ -33,7 +33,7 @@ git clone https://github.com/Seshpenguin/sslvpn.git && cd sslvpn
 * Create an "id_rsa.pub" file with your [SSH public key](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804#step-1-%E2%80%94-create-the-rsa-key-pair) in the repo folder.
 
 ```shell script
-echo "Your Public Key" > id_rsa.pub .
+echo "Your Public Key" > id_rsa.pub
 ```
 
 * Build the Docker image.
