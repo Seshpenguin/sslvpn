@@ -1,5 +1,7 @@
 # SSLVPN
 
+## DEPRECATED REPOSITORY! SSLVPN development continues here: [https://github.com/Sineware/sslvpn](https://github.com/Sineware/sslvpn).
+
 This is a docker container that sets up a "VPN" that runs over SSL (TLS specifically).
 
 What this really means is that and SSH server is exposed through port 443, and encapsulated in TLS using STunnel.
